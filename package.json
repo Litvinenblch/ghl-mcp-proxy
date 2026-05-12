@@ -1,0 +1,16 @@
+{
+  "name": "ghl-mcp-proxy",
+  "version": "1.0.0",
+  "description": "Thin proxy that embeds GHL Private Integration Token in the URL path and forwards to the official GoHighLevel MCP. Works around Anthropic's broken OAuth flow.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
+  }
+}
